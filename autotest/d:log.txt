@@ -1,0 +1,168 @@
+ACTIVITY MANAGER ACTIVITIES (dumpsys activity activities)
+Display #0 (activities from top to bottom):
+  Stack #0:
+    Task id #3
+    * TaskRecord{2cee7994 #3 A=com.google.android.googlequicksearchbox U=0 sz=1}
+      userId=0 effectiveUid=u0a13 mCallingUid=1000 mCallingPackage=android
+      affinity=com.google.android.googlequicksearchbox
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+      realActivity=com.google.android.googlequicksearchbox/com.google.android.launcher.GEL
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=1 mTaskToReturnTo=0
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+      Activities=[ActivityRecord{29e5128c u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t3}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      lastThumbnail=null lastThumbnailFile=/data/system/recent_images/3_task_thumbnail.png
+      hasBeenVisible=true firstActiveTime=1504889439912 lastActiveTime=1504889439912 (inactive for 408s)
+      * Hist #0: ActivityRecord{29e5128c u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t3}
+          packageName=com.google.android.googlequicksearchbox processName=com.google.android.googlequicksearchbox
+          launchedFromUid=0 launchedFromPackage=null userId=0
+          app=ProcessRecord{21e9d5d 2375:com.google.android.googlequicksearchbox/u0a13}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.google.android.googlequicksearchbox/com.google.android.launcher.GEL }
+          frontOfTask=true task=TaskRecord{2cee7994 #3 A=com.google.android.googlequicksearchbox U=0 sz=1}
+          taskAffinity=com.google.android.googlequicksearchbox
+          realActivity=com.google.android.googlequicksearchbox/com.google.android.launcher.GEL
+          baseDir=/system/priv-app/Velvet/Velvet.apk
+          dataDir=/data/user/0/com.google.android.googlequicksearchbox
+          stateNotNeeded=true componentSpecified=false mActivityType=1
+          compat={560dpi} labelRes=0x7f0b0612 icon=0x7f030000 theme=0x7f0e002f
+          config={1.0 310mcc260mnc en_US ?layoutDir sw411dp w411dp h658dp 560dpi nrml port finger -keyb/v/h dpad/v s.7}
+          taskDescription: iconFilename=null label="null" color=ff212121
+          launchFailed=false launchCount=0 lastLaunchTime=-2h15m54s624ms
+          haveState=false icicle=null
+          state=RESUMED stopped=false delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=true sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=HOME_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=true lastVisibleTime=-6m48s25ms
+          connections=[]
+
+    Running activities (most recent first):
+      TaskRecord{2cee7994 #3 A=com.google.android.googlequicksearchbox U=0 sz=1}
+        Run #0: ActivityRecord{29e5128c u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t3}
+
+    mResumedActivity: ActivityRecord{29e5128c u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t3}
+    mLastPausedActivity: ActivityRecord{29e5128c u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t3}
+
+  Stack #1:
+    Task id #14
+    * TaskRecord{270d0c3d #14 A=com.google.android.play.games U=0 sz=4}
+      userId=0 effectiveUid=u0a43 mCallingUid=u0a13 mCallingPackage=com.google.android.googlequicksearchbox
+      affinity=com.google.android.play.games
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity}
+      realActivity=com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity
+      autoRemoveRecents=false isPersistable=true numFullscreen=2 taskType=0 mTaskToReturnTo=1
+      rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+      Activities=[ActivityRecord{3fc57e91 u0 com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity t14}, ActivityRecord{3da68c89 u0 com.google.android.play.games/com.google.android.gms.games.ui.signin.SignInActivity t14}, ActivityRecord{17d5d766 u0 com.google.android.gms/.common.account.AccountChipAccountPickerActivity t14}, ActivityRecord{135498d9 u0 com.google.android.gms/.auth.uiflows.addaccount.PreAddAccountActivity t14}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      lastThumbnail=android.graphics.Bitmap@e76fc32 lastThumbnailFile=/data/system/recent_images/14_task_thumbnail.png
+      hasBeenVisible=true firstActiveTime=1504833384269 lastActiveTime=1504833384269 (inactive for 56464s)
+      * Hist #3: ActivityRecord{135498d9 u0 com.google.android.gms/.auth.uiflows.addaccount.PreAddAccountActivity t14}
+          packageName=com.google.android.gms processName=com.google.android.gms.ui
+          launchedFromUid=10007 launchedFromPackage=com.google.android.gms userId=0
+          app=ProcessRecord{24c69f31 20716:com.google.android.gms.ui/u0a7}
+          Intent { flg=0x2000000 cmp=com.google.android.gms/.auth.uiflows.addaccount.PreAddAccountActivity (has extras) }
+          frontOfTask=false task=TaskRecord{270d0c3d #14 A=com.google.android.play.games U=0 sz=4}
+          taskAffinity=com.google.android.gms
+          realActivity=com.google.android.gms/.auth.uiflows.addaccount.PreAddAccountActivity
+          baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+          dataDir=/data/data/com.google.android.gms
+          stateNotNeeded=false componentSpecified=true mActivityType=0
+          compat={560dpi} labelRes=0x7e120020 icon=0x7f0200f7 theme=0x7f1301e2
+          config={1.0 310mcc260mnc en_US ?layoutDir sw411dp w411dp h658dp 560dpi nrml port finger -keyb/v/h dpad/v s.7}
+          resultTo=ActivityRecord{17d5d766 u0 com.google.android.gms/.common.account.AccountChipAccountPickerActivity t14} resultWho=null resultCode=2
+          taskDescription: iconFilename=null label="null" color=fff5f5f5
+          launchFailed=false launchCount=0 lastLaunchTime=-1h0m38s869ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=360]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-1h0m38s190ms
+          connections=[]
+      * Hist #2: ActivityRecord{17d5d766 u0 com.google.android.gms/.common.account.AccountChipAccountPickerActivity t14}
+          packageName=com.google.android.gms processName=com.google.android.gms.ui
+          launchedFromUid=10043 launchedFromPackage=com.google.android.play.games userId=0
+          app=ProcessRecord{24c69f31 20716:com.google.android.gms.ui/u0a7}
+          Intent { act=com.google.android.gms.common.account.CHOOSE_ACCOUNT_USERTILE flg=0x20800000 pkg=com.google.android.gms cmp=com.google.android.gms/.common.account.AccountChipAccountPickerActivity (has extras) }
+          frontOfTask=false task=TaskRecord{270d0c3d #14 A=com.google.android.play.games U=0 sz=4}
+          taskAffinity=com.google.android.gms
+          realActivity=com.google.android.gms/.common.account.AccountChipAccountPickerActivity
+          baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+          dataDir=/data/data/com.google.android.gms
+          stateNotNeeded=false componentSpecified=false mActivityType=0
+          compat={560dpi} labelRes=0x7e120038 icon=0x7f0200f7 theme=0x7f13024e
+          config={1.0 310mcc260mnc en_US ?layoutDir sw411dp w411dp h658dp 560dpi nrml port finger -keyb/v/h dpad/v s.7}
+          resultTo=ActivityRecord{3da68c89 u0 com.google.android.play.games/com.google.android.gms.games.ui.signin.SignInActivity t14} resultWho=null resultCode=65536
+          taskDescription: iconFilename=null label="null" color=ff212121
+          launchFailed=false launchCount=0 lastLaunchTime=-1h0m39s612ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=620]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=false noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-1h0m38s521ms
+      * Hist #1: ActivityRecord{3da68c89 u0 com.google.android.play.games/com.google.android.gms.games.ui.signin.SignInActivity t14}
+          packageName=com.google.android.play.games processName=com.google.android.play.games.ui
+          launchedFromUid=10007 launchedFromPackage=com.google.android.gms userId=0
+          app=ProcessRecord{9322e01 20630:com.google.android.play.games.ui/u0a43}
+          Intent { act=com.google.android.gms.games.SIGN_IN flg=0x4000000 pkg=com.google.android.play.games cmp=com.google.android.play.games/com.google.android.gms.games.ui.signin.SignInActivity (has extras) }
+          frontOfTask=false task=TaskRecord{270d0c3d #14 A=com.google.android.play.games U=0 sz=4}
+          taskAffinity=com.google.android.play.games
+          realActivity=com.google.android.play.games/com.google.android.gms.games.ui.signin.SignInActivity
+          baseDir=/system/app/PlayGames/PlayGames.apk
+          dataDir=/data/data/com.google.android.play.games
+          stateNotNeeded=false componentSpecified=false mActivityType=0
+          compat={560dpi} labelRes=0x7f1000a0 icon=0x7f030001 theme=0x7f1100f1
+          config={1.0 310mcc260mnc en_US ?layoutDir sw411dp w411dp h658dp 560dpi nrml port finger -keyb/v/h dpad/v s.7}
+          resultTo=ActivityRecord{3fc57e91 u0 com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity t14} resultWho=null resultCode=901
+          taskDescription: iconFilename=null label="null" color=fff5f5f5
+          launchFailed=false launchCount=0 lastLaunchTime=-1h0m39s857ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=992]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=false noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-1h0m39s656ms
+          connections=[]
+      * Hist #0: ActivityRecord{3fc57e91 u0 com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity t14}
+          packageName=com.google.android.play.games processName=com.google.android.play.games.ui
+          launchedFromUid=10013 launchedFromPackage=com.google.android.googlequicksearchbox userId=0
+          app=ProcessRecord{9322e01 20630:com.google.android.play.games.ui/u0a43}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity (has extras) }
+          frontOfTask=true task=TaskRecord{270d0c3d #14 A=com.google.android.play.games U=0 sz=4}
+          taskAffinity=com.google.android.play.games
+          realActivity=com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity
+          baseDir=/system/app/PlayGames/PlayGames.apk
+          dataDir=/data/data/com.google.android.play.games
+          stateNotNeeded=false componentSpecified=true mActivityType=0
+          compat={560dpi} labelRes=0x7f10009f icon=0x7f030001 theme=0x7f1100c1
+          config={1.0 310mcc260mnc en_US ?layoutDir sw411dp w411dp h658dp 560dpi nrml port finger -keyb/v/h dpad/v s.7}
+          taskDescription: iconFilename=14_activity_icon_1504833379794.png label="Play Games" color=ff4e802b
+          launchFailed=false launchCount=0 lastLaunchTime=-1h0m40s413ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=1168]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-1h0m39s787ms
+
+    Running activities (most recent first):
+      TaskRecord{270d0c3d #14 A=com.google.android.play.games U=0 sz=4}
+        Run #3: ActivityRecord{135498d9 u0 com.google.android.gms/.auth.uiflows.addaccount.PreAddAccountActivity t14}
+        Run #2: ActivityRecord{17d5d766 u0 com.google.android.gms/.common.account.AccountChipAccountPickerActivity t14}
+        Run #1: ActivityRecord{3da68c89 u0 com.google.android.play.games/com.google.android.gms.games.ui.signin.SignInActivity t14}
+        Run #0: ActivityRecord{3fc57e91 u0 com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity t14}
+
+    mLastPausedActivity: ActivityRecord{9950051 u0 com.xhqb.app/.activity.welcome.GuidePagerActivity t17 f}
+
+  mFocusedActivity: ActivityRecord{29e5128c u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t3}
+  mFocusedStack=ActivityStack{2a2ccd83 stackId=0, 1 tasks} mLastFocusedStack=ActivityStack{2a2ccd83 stackId=0, 1 tasks}
+  mSleepTimeout=false
+  mCurTaskId=17
+  mUserStackInFront={}
+  mActivityContainers={0=ActivtyContainer{0}A, 1=ActivtyContainer{1}A}
