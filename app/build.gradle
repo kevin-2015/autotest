@@ -3,6 +3,15 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     buildToolsVersion "25.0.1"
+    productFlavors { 
+      wandoujia  { 
+         manifestPlaceholders = [UMENG_CHANNEL_VALUE: "wandoujia"] 
+      } 
+      xiaomi  { 
+         manifestPlaceholders = [UMENG_CHANNEL_VALUE: "xiaomi"] 
+      }
+    }
+
     defaultConfig {
         applicationId "com.example.song.myapplication"
         minSdkVersion 26
